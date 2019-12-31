@@ -6,7 +6,11 @@ import Card from './Card';
 import 'tachyons';
 
 ReactDOM.render(
+   <div>
 	<Card />
-	, document.getElementById('root'));
+	<Card />
+	<Card />
+   </div>,
+   document.getElementById('root')); 
 
 serviceWorker.unregister();
